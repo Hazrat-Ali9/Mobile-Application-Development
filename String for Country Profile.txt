@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">class511</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="uganda">Uganda</string>
+    <string name="indonesia">Indonesia</string>
+
+    <string name="bangladesh_text">
+        Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.\n
+        Capital: Dhaka\n
+        Currency: Bangladeshi Taka\n
+        Official language: Bengali\n
+        President: Mohammed Shahabuddin\n
+        Dialing code: +880\n
+        Government: Unitary state, Parliamentary republic\n
+        Population: 173 million (2023) World Bank\n
+
+    </string>
+
+    <string name="uganda_text">
+        Uganda is a landlocked country in East Africa whose diverse landscape encompasses the snow-capped Rwenzori Mountains and immense Lake Victoria. Its abundant wildlife includes chimpanzees as well as rare birds. Remote Bwindi Impenetrable National Park is a renowned mountain gorilla sanctuary. Murchison Falls National Park in the northwest is known for its 43m-tall waterfall and wildlife such as hippos. ― Google
+        Currency: Ugandan Shilling\n
+        Official languages: Swahili, English\n
+        President: Yoweri Museveni\n
+        Prime minister: Robinah Nabbanja\n
+        Population: 48.58 million (2023) World Bank\n
+        Gross domestic product: 49.27 billion USD (2023) World Bank
+    </string>
+
+    <string name="indonesia_text">
+        Uganda is a landlocked country in East Africa whose diverse landscape encompasses the snow-capped Rwenzori Mountains and immense Lake Victoria. Its abundant wildlife includes chimpanzees as well as rare birds. Remote Bwindi Impenetrable National Park is a renowned mountain gorilla sanctuary. Murchison Falls National Park in the northwest is known for its 43m-tall waterfall and wildlife such as hippos. ― Google
+        Currency: Ugandan Shilling\n
+        Official languages: Swahili, English\n
+        President: Yoweri Museveni\n
+        Prime minister: Robinah Nabbanja\n
+        Population: 48.58 million (2023) World Bank\n
+        Gross domestic product: 49.27 billion USD (2023) World Bank
+    </string>
+
+
+</resources>
