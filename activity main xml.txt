@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="#2196F3"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/bangladeshButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/bangladesh"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textSize="20sp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:textStyle="bold"
+    android:drawableLeft="@drawable/bdn"
+    />
+    <Button
+        android:id="@+id/ugandaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uganda"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ugan"/>
+
+    <Button
+        android:id="@+id/indonesiaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/indonesia"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/indo"/>
+</LinearLayout>
