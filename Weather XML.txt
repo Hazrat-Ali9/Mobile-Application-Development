@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/idIVBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@color/black_shade"/>
+
+        <TextView
+            android:id="@+id/idTVCityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:gravity="center"
+            android:text="@string/city_name"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/idTVCityName"
+            android:id="@+id/idLLEdt"
+            android:weightSum="5">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="4.5"
+                android:id="@+id/idTILCity"
+                android:hint="Enter City Name:"
+                android:padding="5dp"
+                app:hintTextColor="@color/white"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/idEdtCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:importantForAutofill="no"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/idIVSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_search"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/idTVTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idLLEdt"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="26"
+            android:textColor="@color/white"
+            android:textSize="70sp"/>
+
+        <ImageView
+            android:id="@+id/IVIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVTemperature"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTVCondition"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Condition"
+            android:textColor="@color/white"
+            android:layout_below="@id/IVIcon"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:text="Today's Weather Forecast"
+            android:textColor="@color/white"
+            android:layout_above="@id/idRvWeather"
+            android:textStyle="bold"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRvWeather"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
